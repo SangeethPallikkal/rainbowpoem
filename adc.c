@@ -1,3 +1,5 @@
+// c code for adc interfacing
+// developed in code composer studio
 #include "DSP28x_Project.h"  
 
 __interrupt void adc_isr(void);

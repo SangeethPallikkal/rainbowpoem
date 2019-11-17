@@ -36,12 +36,11 @@ main()
    PieVectTable.ADCINT1 = &adc_isr;
    EDIS;  
 // Step 4. Initialize all the Device Peripherals:
-   InitAdc();  
-   AdcOffsetSelfCal();
-
+   InitAdc();  vvfadvadfvadvadvadv
+   AdcOffsetSelfCal();adf zcx cv 
+vavafv
 // Step 5.  enable interrupts:
-
-// Enable ADCINT1 in PIE
+ ac c ad aIE
    PieCtrlRegs.PIEIER1.bit.INTx1 = 1;   // Enable INT 1.1 in the PIE
    IER |= M_INT1;                       // Enable CPU Interrupt 1
    EINT;                                // Enable Global interrupt INTM
